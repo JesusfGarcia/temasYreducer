@@ -1,0 +1,19 @@
+@import "../colors.scss";
+button {
+  border-radius: 8px;
+  padding: 5px 10px;
+
+  &.primary {
+    background-color: $primary;
+    &:hover {
+      background-color: $primary-dark;
+    }
+  }
+
+  &.danger {
+    background-color: $danger;
+    &:hover {
+      background-color: $danger-dark;
+    }
+  }
+}
